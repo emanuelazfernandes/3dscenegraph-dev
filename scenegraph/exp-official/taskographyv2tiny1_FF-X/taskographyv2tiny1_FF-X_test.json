@@ -4,10 +4,10 @@
     "num_node_expansions_std": 6.452214688009482,
     "plan_length": 16.70909090909091,
     "plan_length_std": 5.826811781513976,
-    "search_time": 0.1776363636363636,
-    "search_time_std": 0.19701373866596336,
+    "search_time": 0.18418181818181814,
+    "search_time_std": 0.20660626505585591,
     "success_rate": 1.0,
     "timeout_rate": 0.0,
-    "total_time": 0.1776363636363636,
-    "total_time_std": 0.19701373866596336
+    "total_time": 0.18418181818181814,
+    "total_time_std": 0.20660626505585591
 }

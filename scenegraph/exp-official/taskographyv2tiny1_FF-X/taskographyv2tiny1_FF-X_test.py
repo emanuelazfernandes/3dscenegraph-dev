@@ -2,14 +2,14 @@ STATS = [
     {
         "num_node_expansions": 19,
         "plan_length": 16,
-        "search_time": 0.17,
-        "total_time": 0.17
+        "search_time": 0.16,
+        "total_time": 0.16
     },
     {
         "num_node_expansions": 22,
         "plan_length": 18,
-        "search_time": 0.19,
-        "total_time": 0.19
+        "search_time": 0.18,
+        "total_time": 0.18
     },
     {
         "num_node_expansions": 16,
@@ -26,14 +26,14 @@ STATS = [
     {
         "num_node_expansions": 23,
         "plan_length": 18,
-        "search_time": 0.22,
-        "total_time": 0.22
+        "search_time": 0.21,
+        "total_time": 0.21
     },
     {
         "num_node_expansions": 24,
         "plan_length": 21,
-        "search_time": 0.1,
-        "total_time": 0.1
+        "search_time": 0.11,
+        "total_time": 0.11
     },
     {
         "num_node_expansions": 21,
@@ -50,8 +50,8 @@ STATS = [
     {
         "num_node_expansions": 19,
         "plan_length": 16,
-        "search_time": 0.08,
-        "total_time": 0.08
+        "search_time": 0.09,
+        "total_time": 0.09
     },
     {
         "num_node_expansions": 17,
@@ -62,14 +62,14 @@ STATS = [
     {
         "num_node_expansions": 19,
         "plan_length": 15,
-        "search_time": 0.18,
-        "total_time": 0.18
+        "search_time": 0.23,
+        "total_time": 0.23
     },
     {
         "num_node_expansions": 25,
         "plan_length": 23,
-        "search_time": 0.24,
-        "total_time": 0.24
+        "search_time": 0.26,
+        "total_time": 0.26
     },
     {
         "num_node_expansions": 24,
@@ -86,8 +86,8 @@ STATS = [
     {
         "num_node_expansions": 17,
         "plan_length": 12,
-        "search_time": 0.17,
-        "total_time": 0.17
+        "search_time": 0.18,
+        "total_time": 0.18
     },
     {
         "num_node_expansions": 16,
@@ -98,14 +98,14 @@ STATS = [
     {
         "num_node_expansions": 12,
         "plan_length": 9,
-        "search_time": 0.16,
-        "total_time": 0.16
+        "search_time": 0.17,
+        "total_time": 0.17
     },
     {
         "num_node_expansions": 23,
         "plan_length": 18,
-        "search_time": 0.2,
-        "total_time": 0.2
+        "search_time": 0.21,
+        "total_time": 0.21
     },
     {
         "num_node_expansions": 18,
@@ -116,8 +116,8 @@ STATS = [
     {
         "num_node_expansions": 22,
         "plan_length": 17,
-        "search_time": 0.19,
-        "total_time": 0.19
+        "search_time": 0.2,
+        "total_time": 0.2
     },
     {
         "num_node_expansions": 26,
@@ -152,8 +152,8 @@ STATS = [
     {
         "num_node_expansions": 43,
         "plan_length": 40,
-        "search_time": 1.05,
-        "total_time": 1.05
+        "search_time": 1.04,
+        "total_time": 1.04
     },
     {
         "num_node_expansions": 24,
@@ -164,38 +164,38 @@ STATS = [
     {
         "num_node_expansions": 21,
         "plan_length": 15,
-        "search_time": 0.45,
-        "total_time": 0.45
+        "search_time": 0.56,
+        "total_time": 0.56
     },
     {
         "num_node_expansions": 37,
         "plan_length": 28,
-        "search_time": 0.69,
-        "total_time": 0.69
+        "search_time": 0.78,
+        "total_time": 0.78
     },
     {
         "num_node_expansions": 35,
         "plan_length": 29,
-        "search_time": 0.67,
-        "total_time": 0.67
+        "search_time": 0.69,
+        "total_time": 0.69
     },
     {
         "num_node_expansions": 29,
         "plan_length": 27,
-        "search_time": 0.5,
-        "total_time": 0.5
+        "search_time": 0.48,
+        "total_time": 0.48
     },
     {
         "num_node_expansions": 27,
         "plan_length": 22,
-        "search_time": 0.44,
-        "total_time": 0.44
+        "search_time": 0.5,
+        "total_time": 0.5
     },
     {
         "num_node_expansions": 11,
         "plan_length": 9,
-        "search_time": 0.27,
-        "total_time": 0.27
+        "search_time": 0.3,
+        "total_time": 0.3
     },
     {
         "num_node_expansions": 19,
@@ -206,8 +206,8 @@ STATS = [
     {
         "num_node_expansions": 20,
         "plan_length": 18,
-        "search_time": 0.35,
-        "total_time": 0.35
+        "search_time": 0.36,
+        "total_time": 0.36
     },
     {
         "num_node_expansions": 13,
@@ -230,14 +230,14 @@ STATS = [
     {
         "num_node_expansions": 15,
         "plan_length": 11,
-        "search_time": 0.03,
-        "total_time": 0.03
+        "search_time": 0.02,
+        "total_time": 0.02
     },
     {
         "num_node_expansions": 17,
         "plan_length": 13,
-        "search_time": 0.02,
-        "total_time": 0.02
+        "search_time": 0.03,
+        "total_time": 0.03
     },
     {
         "num_node_expansions": 16,
@@ -248,8 +248,8 @@ STATS = [
     {
         "num_node_expansions": 17,
         "plan_length": 14,
-        "search_time": 0.01,
-        "total_time": 0.01
+        "search_time": 0.02,
+        "total_time": 0.02
     },
     {
         "num_node_expansions": 20,
@@ -260,8 +260,8 @@ STATS = [
     {
         "num_node_expansions": 15,
         "plan_length": 11,
-        "search_time": 0.02,
-        "total_time": 0.02
+        "search_time": 0.01,
+        "total_time": 0.01
     },
     {
         "num_node_expansions": 26,
@@ -272,14 +272,14 @@ STATS = [
     {
         "num_node_expansions": 19,
         "plan_length": 15,
-        "search_time": 0.12,
-        "total_time": 0.12
+        "search_time": 0.11,
+        "total_time": 0.11
     },
     {
         "num_node_expansions": 17,
         "plan_length": 15,
-        "search_time": 0.11,
-        "total_time": 0.11
+        "search_time": 0.1,
+        "total_time": 0.1
     },
     {
         "num_node_expansions": 10,
@@ -290,14 +290,14 @@ STATS = [
     {
         "num_node_expansions": 15,
         "plan_length": 11,
-        "search_time": 0.1,
-        "total_time": 0.1
+        "search_time": 0.11,
+        "total_time": 0.11
     },
     {
         "num_node_expansions": 27,
         "plan_length": 22,
-        "search_time": 0.13,
-        "total_time": 0.13
+        "search_time": 0.12,
+        "total_time": 0.12
     },
     {
         "num_node_expansions": 19,
@@ -314,8 +314,8 @@ STATS = [
     {
         "num_node_expansions": 17,
         "plan_length": 14,
-        "search_time": 0.03,
-        "total_time": 0.03
+        "search_time": 0.02,
+        "total_time": 0.02
     },
     {
         "num_node_expansions": 12,

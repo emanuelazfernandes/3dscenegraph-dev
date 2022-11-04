@@ -2,329 +2,329 @@ STATS = [
     {
         "num_node_expansions": 19,
         "plan_length": 16,
-        "search_time": 0.19,
-        "total_time": 0.19
+        "search_time": 0.18,
+        "total_time": 0.18
     },
     {
-        "num_node_expansions": 41,
+        "num_node_expansions": 22,
         "plan_length": 18,
-        "search_time": 0.21,
-        "total_time": 0.21
+        "search_time": 0.22,
+        "total_time": 0.22
     },
     {
-        "num_node_expansions": 57,
+        "num_node_expansions": 16,
         "plan_length": 13,
         "search_time": 0.17,
         "total_time": 0.17
     },
     {
-        "num_node_expansions": 90,
+        "num_node_expansions": 33,
         "plan_length": 26,
         "search_time": 0.27,
         "total_time": 0.27
     },
     {
-        "num_node_expansions": 113,
+        "num_node_expansions": 23,
         "plan_length": 18,
-        "search_time": 0.24,
-        "total_time": 0.24
+        "search_time": 0.23,
+        "total_time": 0.23
     },
     {
-        "num_node_expansions": 137,
+        "num_node_expansions": 24,
         "plan_length": 21,
-        "search_time": 0.11,
-        "total_time": 0.11
+        "search_time": 0.12,
+        "total_time": 0.12
     },
     {
-        "num_node_expansions": 158,
+        "num_node_expansions": 21,
         "plan_length": 16,
         "search_time": 0.11,
         "total_time": 0.11
     },
     {
-        "num_node_expansions": 180,
+        "num_node_expansions": 22,
         "plan_length": 17,
-        "search_time": 0.1,
-        "total_time": 0.1
+        "search_time": 0.09,
+        "total_time": 0.09
     },
     {
-        "num_node_expansions": 199,
+        "num_node_expansions": 19,
         "plan_length": 16,
-        "search_time": 0.1,
-        "total_time": 0.1
+        "search_time": 0.09,
+        "total_time": 0.09
     },
     {
-        "num_node_expansions": 216,
+        "num_node_expansions": 17,
         "plan_length": 13,
-        "search_time": 0.1,
-        "total_time": 0.1
+        "search_time": 0.08,
+        "total_time": 0.08
     },
     {
-        "num_node_expansions": 235,
+        "num_node_expansions": 19,
         "plan_length": 15,
-        "search_time": 0.19,
-        "total_time": 0.19
+        "search_time": 0.2,
+        "total_time": 0.2
     },
     {
-        "num_node_expansions": 260,
+        "num_node_expansions": 25,
         "plan_length": 23,
         "search_time": 0.25,
         "total_time": 0.25
     },
     {
-        "num_node_expansions": 284,
+        "num_node_expansions": 24,
         "plan_length": 19,
-        "search_time": 0.24,
-        "total_time": 0.24
+        "search_time": 0.23,
+        "total_time": 0.23
     },
     {
-        "num_node_expansions": 298,
+        "num_node_expansions": 14,
         "plan_length": 12,
-        "search_time": 0.18,
-        "total_time": 0.18
+        "search_time": 0.17,
+        "total_time": 0.17
     },
     {
-        "num_node_expansions": 315,
+        "num_node_expansions": 17,
         "plan_length": 12,
+        "search_time": 0.19,
+        "total_time": 0.19
+    },
+    {
+        "num_node_expansions": 16,
+        "plan_length": 14,
         "search_time": 0.2,
         "total_time": 0.2
     },
     {
-        "num_node_expansions": 331,
-        "plan_length": 14,
-        "search_time": 0.21,
-        "total_time": 0.21
-    },
-    {
-        "num_node_expansions": 343,
+        "num_node_expansions": 12,
         "plan_length": 9,
         "search_time": 0.19,
         "total_time": 0.19
     },
     {
-        "num_node_expansions": 366,
+        "num_node_expansions": 23,
         "plan_length": 18,
         "search_time": 0.23,
         "total_time": 0.23
     },
     {
-        "num_node_expansions": 384,
+        "num_node_expansions": 18,
         "plan_length": 14,
-        "search_time": 0.19,
-        "total_time": 0.19
+        "search_time": 0.2,
+        "total_time": 0.2
     },
     {
-        "num_node_expansions": 406,
+        "num_node_expansions": 22,
         "plan_length": 17,
-        "search_time": 0.23,
-        "total_time": 0.23
+        "search_time": 0.22,
+        "total_time": 0.22
     },
     {
-        "num_node_expansions": 432,
+        "num_node_expansions": 26,
         "plan_length": 23,
         "search_time": 0.09,
         "total_time": 0.09
     },
     {
-        "num_node_expansions": 454,
+        "num_node_expansions": 22,
         "plan_length": 19,
         "search_time": 0.08,
         "total_time": 0.08
     },
     {
-        "num_node_expansions": 469,
+        "num_node_expansions": 15,
         "plan_length": 12,
-        "search_time": 0.08,
-        "total_time": 0.08
+        "search_time": 0.06,
+        "total_time": 0.06
     },
     {
-        "num_node_expansions": 494,
+        "num_node_expansions": 25,
         "plan_length": 20,
-        "search_time": 0.08,
-        "total_time": 0.08
-    },
-    {
-        "num_node_expansions": 520,
-        "plan_length": 23,
         "search_time": 0.09,
         "total_time": 0.09
     },
     {
-        "num_node_expansions": 563,
+        "num_node_expansions": 26,
+        "plan_length": 23,
+        "search_time": 0.08,
+        "total_time": 0.08
+    },
+    {
+        "num_node_expansions": 43,
         "plan_length": 40,
-        "search_time": 1.15,
-        "total_time": 1.15
+        "search_time": 1.11,
+        "total_time": 1.11
     },
     {
-        "num_node_expansions": 587,
+        "num_node_expansions": 24,
         "plan_length": 20,
-        "search_time": 0.56,
-        "total_time": 0.56
+        "search_time": 0.57,
+        "total_time": 0.57
     },
     {
-        "num_node_expansions": 608,
+        "num_node_expansions": 21,
         "plan_length": 15,
         "search_time": 0.49,
         "total_time": 0.49
     },
     {
-        "num_node_expansions": 645,
+        "num_node_expansions": 37,
         "plan_length": 28,
-        "search_time": 0.73,
-        "total_time": 0.73
+        "search_time": 0.76,
+        "total_time": 0.76
     },
     {
-        "num_node_expansions": 680,
+        "num_node_expansions": 35,
         "plan_length": 29,
         "search_time": 0.73,
         "total_time": 0.73
     },
     {
-        "num_node_expansions": 709,
+        "num_node_expansions": 29,
         "plan_length": 27,
-        "search_time": 0.53,
-        "total_time": 0.53
+        "search_time": 0.62,
+        "total_time": 0.62
     },
     {
-        "num_node_expansions": 736,
+        "num_node_expansions": 27,
         "plan_length": 22,
-        "search_time": 0.46,
-        "total_time": 0.46
+        "search_time": 0.58,
+        "total_time": 0.58
     },
     {
-        "num_node_expansions": 747,
+        "num_node_expansions": 11,
         "plan_length": 9,
-        "search_time": 0.28,
-        "total_time": 0.28
+        "search_time": 0.34,
+        "total_time": 0.34
     },
     {
-        "num_node_expansions": 766,
+        "num_node_expansions": 19,
         "plan_length": 16,
-        "search_time": 0.35,
-        "total_time": 0.35
+        "search_time": 0.52,
+        "total_time": 0.52
     },
     {
-        "num_node_expansions": 786,
+        "num_node_expansions": 20,
         "plan_length": 18,
-        "search_time": 0.41,
-        "total_time": 0.41
+        "search_time": 0.42,
+        "total_time": 0.42
     },
     {
-        "num_node_expansions": 799,
+        "num_node_expansions": 13,
         "plan_length": 10,
         "search_time": 0.03,
         "total_time": 0.03
     },
     {
-        "num_node_expansions": 814,
+        "num_node_expansions": 15,
         "plan_length": 13,
         "search_time": 0.03,
         "total_time": 0.03
     },
     {
-        "num_node_expansions": 832,
+        "num_node_expansions": 18,
         "plan_length": 16,
         "search_time": 0.04,
         "total_time": 0.04
     },
     {
-        "num_node_expansions": 847,
+        "num_node_expansions": 15,
         "plan_length": 11,
-        "search_time": 0.03,
-        "total_time": 0.03
+        "search_time": 0.02,
+        "total_time": 0.02
     },
     {
-        "num_node_expansions": 864,
+        "num_node_expansions": 17,
         "plan_length": 13,
         "search_time": 0.03,
         "total_time": 0.03
     },
     {
-        "num_node_expansions": 880,
+        "num_node_expansions": 16,
         "plan_length": 12,
         "search_time": 0.02,
         "total_time": 0.02
     },
     {
-        "num_node_expansions": 897,
+        "num_node_expansions": 17,
         "plan_length": 14,
-        "search_time": 0.01,
-        "total_time": 0.01
+        "search_time": 0.02,
+        "total_time": 0.02
     },
     {
-        "num_node_expansions": 917,
+        "num_node_expansions": 20,
         "plan_length": 15,
         "search_time": 0.02,
         "total_time": 0.02
     },
     {
-        "num_node_expansions": 932,
+        "num_node_expansions": 15,
         "plan_length": 11,
         "search_time": 0.02,
         "total_time": 0.02
     },
     {
-        "num_node_expansions": 958,
+        "num_node_expansions": 26,
         "plan_length": 20,
-        "search_time": 0.03,
-        "total_time": 0.03
+        "search_time": 0.02,
+        "total_time": 0.02
     },
     {
-        "num_node_expansions": 977,
+        "num_node_expansions": 19,
         "plan_length": 15,
         "search_time": 0.12,
         "total_time": 0.12
     },
     {
-        "num_node_expansions": 994,
+        "num_node_expansions": 17,
         "plan_length": 15,
-        "search_time": 0.11,
-        "total_time": 0.11
+        "search_time": 0.12,
+        "total_time": 0.12
     },
     {
-        "num_node_expansions": 1004,
+        "num_node_expansions": 10,
         "plan_length": 8,
         "search_time": 0.11,
         "total_time": 0.11
     },
     {
-        "num_node_expansions": 1019,
+        "num_node_expansions": 15,
         "plan_length": 11,
-        "search_time": 0.11,
-        "total_time": 0.11
-    },
-    {
-        "num_node_expansions": 1046,
-        "plan_length": 22,
         "search_time": 0.13,
         "total_time": 0.13
     },
     {
-        "num_node_expansions": 1065,
-        "plan_length": 14,
-        "search_time": 0.02,
-        "total_time": 0.02
+        "num_node_expansions": 27,
+        "plan_length": 22,
+        "search_time": 0.17,
+        "total_time": 0.17
     },
     {
-        "num_node_expansions": 1082,
+        "num_node_expansions": 19,
+        "plan_length": 14,
+        "search_time": 0.03,
+        "total_time": 0.03
+    },
+    {
+        "num_node_expansions": 17,
         "plan_length": 15,
         "search_time": 0.03,
         "total_time": 0.03
     },
     {
-        "num_node_expansions": 1099,
+        "num_node_expansions": 17,
         "plan_length": 14,
         "search_time": 0.03,
         "total_time": 0.03
     },
     {
-        "num_node_expansions": 1111,
+        "num_node_expansions": 12,
         "plan_length": 9,
         "search_time": 0.03,
         "total_time": 0.03
     },
     {
-        "num_node_expansions": 1126,
+        "num_node_expansions": 15,
         "plan_length": 13,
         "search_time": 0.03,
         "total_time": 0.03

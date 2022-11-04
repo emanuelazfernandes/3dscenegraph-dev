@@ -7,7 +7,7 @@ class PDDLSceneGraphMapper(TaskSamplerBase):
 
     def __init__(self, data_path=None, model_name=None, scenegraph=None):
         """Class that maps object names parsed from a PDDL problem file to the 
-        corresponding SceneGraphNode object as defined in loader.py. 
+        corresponding SceneGraphNode object as defined in loader.py.
         """
         assert (scenegraph is not None or (model_name is not None and data_path is not None))
         if scenegraph is not None:
