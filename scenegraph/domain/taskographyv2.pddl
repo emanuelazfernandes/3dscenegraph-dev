@@ -8,8 +8,8 @@
     room       ; room       can be a set of {places, agents}
     place      ; place      can be a set of {locations, agents}
     location   ; location   can be a set of {agents, receptacles, items}
-    receptacle ; receptacle can be a set of {items}                     ; has an open/close state transition (can be opened or not); 
-    item
+    receptacle ; receptacle can be a set of {items}
+    item       ; has an open/close state transition (can be opened or not); 
   )
 
   (:predicates

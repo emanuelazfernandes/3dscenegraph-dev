@@ -1,6 +1,4 @@
 # ------------------------- ROOMS -------------------------
-
-
 ROOMS = {
     'bathroom',
     'bedroom',
@@ -25,8 +23,6 @@ ROOMS = {
 
 
 # ------------------------- OBJECTS -------------------------
-
-
 OBJECTS = {
     'apple',
     'backpack',
@@ -109,9 +105,8 @@ LARGE_OBJECTS = {
     'tv'
 }
 
-
+# Verify if the set of OBJECTS is the same size as the union of sets SMALL_OBJECTS, MEDIUM_OBJECTS and LARGE_OBJECTS
 assert(len(SMALL_OBJECTS.union(MEDIUM_OBJECTS.union(LARGE_OBJECTS))) == len(OBJECTS))
-
 
 # objects that can be placed in HEATING receptacle type
 HEATABLE_OBJECTS = {
@@ -153,24 +148,8 @@ CLEANABLE_OBJECTS = {
     'wine glass'
 }
 
-# # receptacle objects can store one or more non-receptacle object
-# RECEPTACLE_OBJECTS = {
-#     'backpack',
-#     'baseball glove',
-#     'bottle',
-#     'bowl',
-#     'handbag',
-#     'suitcase',
-#     'vase',
-#     'wine glass'
-# }
-
-# # non-receptacle objects cannot store other objects
-# NON_RECEPTACLE_OBJECTS = OBJECTS - RECEPTACLE_OBJECTS
-
 
 # ------------------------- RECEPTACLES -------------------------
-
 
 RECEPTACLES = {
     'bed',
@@ -186,6 +165,21 @@ RECEPTACLES = {
     'toaster',
     'toilet'
 }
+
+# # receptacle objects can store one or more non-receptacle object
+# RECEPTACLE_OBJECTS = {
+#     'backpack',
+#     'baseball glove',
+#     'bottle',
+#     'bowl',
+#     'handbag',
+#     'suitcase',
+#     'vase',
+#     'wine glass'
+# }
+
+# # non-receptacle objects cannot store other objects
+# NON_RECEPTACLE_OBJECTS = OBJECTS - RECEPTACLE_OBJECTS
 
 # receptacle types (for generating receptacle receptacle_type facts)
 OPENING_RECEPTACLES = {
@@ -218,9 +212,9 @@ CLEANING_RECEPTACLES = {
 # }
 
 
+#TODO emanuel: are these properties related to the original ones from the 3DSG of Armeni?
+
 # ------------------------- PROPERTIES -------------------------
-
-
 MATERIALS = {
     'ceramic',
     'fabric',

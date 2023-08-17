@@ -33,7 +33,7 @@ pip install -e pddlgym
 
 # install code dependecies
 git clone --recurse-submodules https://github.com/taskography/3dscenegraph-dev
-pip install -r 3dscenegraph-dec/scenegraph/requirements.txt
+pip install -r 3dscenegraph-dev/scenegraph/requirements.txt
 ```
 
 Download the tiny (35 scenes) and medium (105 scenes) splits from the iGibson [3D Scene Graph Dataset](https://docs.google.com/forms/d/e/1FAIpQLScnlTFPUYtBqlN8rgj_1J3zJm44bIhmIx8gDhOqiJyTwja8vw/viewform) and unpack it into the directory of choice. Unzip the files as shown below:

@@ -19,24 +19,34 @@ def plot_plan(domain_name, model):
     env = pddlgym.make("PDDLEnv{}-v0".format(domain_name.capitalize()))
     domain_fname = env.domain.domain_fname
     problem_idx = None
+
+    [print(i.problem_name) for i in env.problems]
+    input()
+
     for i, problem in enumerate(env.problems):
         if model.lower() in problem.problem_name:
             problem_idx = i
             break
     assert (problem_idx is not None)
+
+    print(f"problem_idx={problem_idx}")
+    input()
+
     problem_fname = env.problems[problem_idx].problem_fname
     env.fix_problem_index(problem_idx)
     state, _ = env.reset()
     planner = FD(alias_flag='--alias lama-first')
 
     # attempt to plan
+    print("Attempting plan...")
     try:
         plan = planner.plan_to_action_from_pddl(env.domain, state, domain_fname, problem_fname, timeout=10)
     except PlanningTimeout as timeout:
         print(timeout)
     except PlanningFailure as failure:
         print(failure)
-    
+    except Exception as e:
+        print("Something else happened:", e) 
 
 class SceneGraphVisualizer:
 
@@ -48,7 +58,6 @@ class SceneGraphVisualizer:
         self.scene = pyrender.Scene()
     
     def reset(self):
-
         self.scene = pyrender.Scene()
 
     def add_mesh(self, mesh=None, color=None):
@@ -61,13 +70,15 @@ class SceneGraphVisualizer:
         # position camera at scene centroid
         pymesh = pyrender.Mesh.from_trimesh(self.mesh)
         ang = -np.pi / 2
-        cam_to_world = np.array([
-            [1.0, 0.0, 0.0, 0.0],
-            [0.0, np.cos(ang), -np.sin(ang), 0.0],
-            [0.0, np.sin(ang), np.cos(ang), 0.0],
-            [0.0, 0.0, 0.0, 1.0]
-        ], dtype=float)
-        cam_to_world[:3, 3] = pymesh.centroid + np.array([0.0, 10.0, 0.0])
+        cam_to_world = np.array([[1.0, 0.0,          0.0,         0.0],
+                                 [0.0, np.cos(ang), -np.sin(ang), 0.0],
+                                 [0.0, np.sin(ang),  np.cos(ang), 0.0],
+                                 [0.0, 0.0,          0.0,         1.0]
+                                ],
+                                dtype=float)
+        cam_to_world[:3, 3] = pymesh.centroid + np.array([ 0.0,
+                                                          10.0,
+                                                           0.0])
 
         # add camera and directional light
         camera = pyrender.camera.PerspectiveCamera(yfov=np.pi / 3.0, aspectRatio=1.0)
@@ -87,19 +98,28 @@ class SceneGraphVisualizer:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data-root', type=str, default="/home/agiachris/data/")
+    #parser.add_argument('--data-root', type=str, default="/home/agiachris/data/")#original
+    parser.add_argument('--data-root', type=str, default="/media/faiska/Seagate/tese/code/taskography/3dscenegraph-dev/data/")#debug
     parser.add_argument('--model', type=str, default='Allensville')
     args = parser.parse_args()
 
     # get scene graph and mesh path
     data_path = os.path.join(args.data_root, '3dscenegraph', 'tiny')
     model_type = "verified_graph" if os.path.basename(data_path) == 'tiny' else "automated_graph"
+    
+    # By default, datapath will point to "3dscenegraph-dev/data/3dscenegraph/tiny/verified_graph/3DSceneGraph_Allensville.npz"
     datapath = os.path.join(data_path, model_type, "3DSceneGraph_" + args.model + ".npz")
-    meshpath = os.path.join(args.data_root, 'gibson_tiny', args.model, 'mesh.obj')
+    # meshpath will point to the one from the gibson dataset, I will modify it to point to mine
+    #meshpath = os.path.join(args.data_root, 'gibson_tiny', args.model, 'mesh.obj')
+    meshpath = os.path.join(args.data_root, '..', '..', 'gibson', 'GibsonEnv', 'gibson', 'assets','dataset', args.model, 'mesh.obj')#debug
+    
+    # Was commented
+    plot_plan('taskographyv2tiny2', args.model)
+    exit()
 
-    # plot_plan('taskographyv2tiny2', args.model)
-    # exit()
-
+    print(f"Loading model '{args.model}' from .npz file at '{datapath}' and mesh at '{meshpath}'\nPress to continue")#debug
+    input()#debug
+    
     vis = SceneGraphVisualizer(datapath, meshpath)
     vis.add_mesh()
     vis.render_topdown()
