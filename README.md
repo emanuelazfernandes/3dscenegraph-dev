@@ -1,6 +1,8 @@
 # Taskography Benchmark - Planning using 3D Scene Graphs
 
-TODO
+still TODO
+
+Major refactoring incoming
 
 # ORIGINAL README - 3dscenegraph-dev
 
